@@ -1,0 +1,39 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.transactions{
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+}
+
+.transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(199, 209, 209);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid green;
+}
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
